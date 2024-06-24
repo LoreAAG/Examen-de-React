@@ -1,12 +1,10 @@
 import React from 'react';
-import Cantidad from './components/Cantidad.jsx'
-import ElementsListContainer from './components/ElementsListContainer.jsx';
+import ContainerListItems from './components/ContainerListItems.jsx'
 
 function App() {
   return (
     <div  > 
-      <Cantidad/>
-      <ElementsListContainer/>
+      <ContainerListItems/>
     </div>
   );
 }
